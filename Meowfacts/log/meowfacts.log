@@ -1,0 +1,27 @@
+2026-02-15 12:37:48,293 INFO __main__ [56bd6680-d59a-4098-b81c-0711cca5d143] - Starting workflow 'DAILY_ELT' (MEOW_WORKFLOW_NAME)
+2026-02-15 12:37:48,984 INFO FactFetcher [56bd6680-d59a-4098-b81c-0711cca5d143] - Starting fetch for 29 languages (source=discovered)
+2026-02-15 12:37:49,260 INFO FactFetcher [56bd6680-d59a-4098-b81c-0711cca5d143] - Fetch summary by language:
+| Language            |   Fetched |
+|---------------------|-----------|
+| Bengali             |        60 |
+| Chinese             |        90 |
+| Chinese (Taiwan)    |        90 |
+| Czech               |       174 |
+| Filipino            |       180 |
+| French              |       174 |
+| German              |       200 |
+| Italian             |       180 |
+| Korean              |       178 |
+| Portuguese          |        90 |
+| Portuguese (Brazil) |        90 |
+| Russian             |       180 |
+| Spanish             |        90 |
+| Spanish (Mexico)    |        89 |
+| Spanish (Spain)     |        90 |
+| US English          |       182 |
+| Ukrainian           |       180 |
+| Urdu                |       160 |
+2026-02-15 12:37:49,263 INFO FactFetcher [56bd6680-d59a-4098-b81c-0711cca5d143] - Note: counts include multiple codes per language: Bengali: ben=30, ben-in=30; Czech: ces=87, ces-cz=87; Filipino: fil=90, fil-tl=90; French: fra=87, fra-fr=87; German: ger=100, ger-de=100; Italian: ita=90, ita-it=90; Korean: kor=89, kor-ko=89; Russian: rus=90, rus-ru=90; US English: eng=91, eng-us=91; Ukrainian: ukr=90, ukr-ua=90; Urdu: urd=80, urd-ud=80
+2026-02-15 12:37:49,282 INFO FactPublisher [56bd6680-d59a-4098-b81c-0711cca5d143] - Saved raw facts dataset
+2026-02-15 12:37:49,541 INFO FactPublisher [56bd6680-d59a-4098-b81c-0711cca5d143] - Saved cleaned facts dataset
+2026-02-15 12:37:49,546 INFO __main__ [56bd6680-d59a-4098-b81c-0711cca5d143] - Workflow 'DAILY_ELT' completed
